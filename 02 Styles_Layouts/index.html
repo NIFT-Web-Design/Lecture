@@ -5,46 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HTML5 Semantics & Structure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
 
-  <!-- Examples: Box Model -->
-  <section id="example">
-    <div>One</div>
-    <div>Two</div>
-  </section>
-
-
-
   <header>
-    <img src="images/OP_logo.png" alt="Optimal Partners Logo" height="50px">
-    <!-- Navigation Elements -->
-    <nav>
-      <!-- Un-ordered List -->
-      <ul>
-        <!-- List Items -->
-        <li><a target="_blank" href="https://www.optimal-partners.com/ourservices.php">Our Services</a></li>
-        <li><a target="_blank" href="https://www.optimal-partners.com/casestudies.php">Case Studies</a></li>
-        <li><a target="_blank" href="https://www.optimal-partners.com/ourstory.php">Our Story</a></li>
-        <li><a target="_blank" href="https://www.optimal-partners.com/workwithus.php">Work With Us</a></li>
-        <li><a target="_blank" href="https://www.optimal-partners.com/consultants.php">Consultants</a></li>
-        <li><a target="_blank" href="https://blog.optimal-partners.com/">Blog</a></li>
-        <li><a target="_blank" href="https://www.optimal-partners.com/contactus.php">Contact Us</a></li>
-      </ul>
-    </nav>
+    <div>
+      <img src="images/OP_logo.png" alt="Optimal Partners Logo" height="50px">
+      <!-- Navigation Elements -->
+      <nav>
+        <a class="active" target="_blank" href="https://www.optimal-partners.com/ourservices.php">Our Services</a>
+        <a target="_blank" href="https://www.optimal-partners.com/casestudies.php">Case Studies</a>
+        <a target="_blank" href="https://www.optimal-partners.com/ourstory.php">Our Story</a>
+        <a target="_blank" href="https://www.optimal-partners.com/workwithus.php">Work With Us</a>
+        <a target="_blank" href="https://www.optimal-partners.com/consultants.php">Consultants</a>
+        <a target="_blank" href="https://blog.optimal-partners.com/">Blog</a>
+        <a target="_blank" href="https://www.optimal-partners.com/contactus.php">Contact Us</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section>
+    <section id="pageNameContainer">
       <h1>Our Services</h1>
     </section>
 
     <section id="weServe">
       <h2>We Serve Higher Education and Beyond</h2>
-      <p>Optimal focuses on strategy and technology consulting and implementation services at universities, related institutions, and beyond. Our consultants are experts in many areas, including but not limited to strategy, project management, elearning, reporting and analytics, information security, CRM, as well as traditional and cloud software development and implementations.</p>
+      <p>Optimal focuses on strategy and technology consulting and implementation services at universities, related institutions, and beyond. Our consultants are experts in many areas, including but not limited to <span>strategy, project management, elearning, reporting and analytics, information security, CRM,</span> as well as traditional and cloud software development and implementations.</p>
     </section>
 
     <section id="varietyServices">
