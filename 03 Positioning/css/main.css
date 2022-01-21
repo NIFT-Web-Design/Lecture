@@ -38,6 +38,7 @@ h1 {
   background-color: green;
   bottom: 0;
   right: 0;
+  margin: 0;
 }
 
 #three .fixed{
