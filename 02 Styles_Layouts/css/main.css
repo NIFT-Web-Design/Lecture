@@ -6,10 +6,12 @@
   Para Text: #7f969e
 */
 
-/* Global Body Styles */
+/* ===== Global Body Styles ===== */
  body {
+   /* Default Font Family & Weight */
    font-family: 'Source Sans Pro', sans-serif;
    font-weight: 400;
+   font-size: 16px;
  }
 
  p {
@@ -84,27 +86,36 @@ h1 {
   text-shadow: 1px 2px 2px black;
 }
 
-/* ===== weServe ===== */
-#weServe {
+/* ===== Generic Content Container ===== */
+section.contentContainer {
   background-color: white;
-  padding: 50px 0 70px;
+  padding: 54px 0;
 }
 
-#weServe h2 {
-  color: #0a465b;
+section.contentContainer.backgroundGrey {
+  background-color: #EDEff3;
+}
+
+section.contentContainer h2 {
   font-size: 34px;
   font-weight: 300;
+  color: #0a465b;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
-#weServe p {
+section.contentContainer > p {
   font-size: 18px;
   width: 900px;
   margin: 0 auto;
   text-align: center;
 }
 
-#weServe p span {
+section.contentContainer p span.highlight {
   color: Orange;
+}
+
+section.contentContainer.backgroundGrey article {
+  background-color: green;
+  margin: 10px;
 }
