@@ -1,0 +1,15 @@
+/* =========================== */
+/* ====== Mobile Styles ======  */
+/* =========================== */
+/* If the browser window is 600px or smaller, then apply the below style: */
+@media only screen and (max-width: 1000px) {
+  section.contentContainer h2, section.contentContainer > p {
+    width: auto;
+    padding: 0 16px;
+  }
+
+  section.blockStyle div.flexContainer {
+    flex-flow: column;
+    align-items: center;
+  }
+}
