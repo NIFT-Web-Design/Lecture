@@ -1,0 +1,53 @@
+/* ====== Global Styles ====== */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ======= Without using FlexBox! ======= */
+/* header {
+  background-color: #2A2A2A;
+  padding: 16px 160px;
+}
+nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  padding-top: 16px;
+} */
+/* ======= Without using FlexBox! ======= */
+
+
+header {
+  background-color: #2A2A2A;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px 0;
+}
+nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d4d4d4;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  transition: all .2s;
+}
+nav a:hover {
+  color: white;
+}
+nav a#blueBox {
+  background-color: #107698;
+  color: white;
+}
+nav a#orangeHighlight {
+  color: orange;
+}
+header div {
+  background-color: green;
+  width: 50px;
+  height: 10px;
+}
